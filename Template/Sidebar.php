@@ -30,10 +30,10 @@
                         <li>
                             <a href="#"><span class="icon16 icomoon-icon-puzzle"></span><?php echo Translate('Administration'); ?></a>
                             <ul class="sub">
-                                <li><a href="Centers"><span class="icon16 entypo-icon-users"></span><?php echo Translate('Centers'); ?></a></li>
-                                <li><a href="Registration" id="RegistrationLink"><span class="icon16 icomoon-icon-license"></span><?php echo Translate('Registration'); ?></a></li>
-                                <li><a href="Admission" id="AdmissionLink"><span class="icon16 icomoon-icon-stack"></span><?php echo Translate('Admission'); ?></a></li>
-                                <li><a href="Cohorts"><span class="icon16 icomoon-icon-graduation"></span><?php echo Translate('Cohorts'); ?></a></li>
+                                <li><a href="modules/Centers/views/index.php"><span class="icon16 entypo-icon-users"></span><?php echo Translate('Centers'); ?></a></li>
+                                <li><a href="modules/Registration/views/index.php" id="RegistrationLink"><span class="icon16 icomoon-icon-license"></span><?php echo Translate('Registration'); ?></a></li>
+                                <li><a href="modules/Registration/views/Student.php" id="AdmissionLink"><span class="icon16 icomoon-icon-stack"></span><?php echo Translate('Admission'); ?></a></li>
+                                <li><a href="modules/Cohorts/views/Cohorts.php"><span class="icon16 icomoon-icon-graduation"></span><?php echo Translate('Cohorts'); ?></a></li>
 
  										
                             </ul>
@@ -42,16 +42,16 @@
                         <li>
                             <a href="#"><span class="icon16 minia-icon-bars-2"></span><?php echo Translate('Learner Progress'); ?></a>
                             <ul class="sub">
-								<li><a href="Attendance" id="IncomeLink"><span class="icon16 minia-icon-list-4"></span><?php echo Translate('Session Attendance'); ?></a></li>
-                                <li><a href="ProgressReport" id="IncomeLink"><span class="icon16 minia-icon-list-4"></span><?php echo Translate('Progress Report'); ?></a></li>	
-                                <li><a href="Promotion"><span class="icon16 icomoon-icon-graduation"></span><?php echo Translate('Transitions'); ?></a></li>
+								<li><a href="modules/Cohorts/views/Attendance.php" id="IncomeLink"><span class="icon16 minia-icon-list-4"></span><?php echo Translate('Session Attendance'); ?></a></li>
+                                <li><a href="modules/StudentProgress/views/promotions.php" id="IncomeLink"><span class="icon16 minia-icon-list-4"></span><?php echo Translate('Progress Report'); ?></a></li>	
+                                <li><a href="modules/StudentProgress/views/promotions.php"><span class="icon16 icomoon-icon-graduation"></span><?php echo Translate('Transitions'); ?></a></li>
 
 							
 							</ul>
 						</li>
                 
                         
-                        <li><a href="ManageStaff"><span class="icon16 entypo-icon-user"></span><?php echo Translate('Manage Staff'); ?></a></li>
+                        <li><a href="modules/Users/views/index.php"><span class="icon16 entypo-icon-user"></span><?php echo Translate('Manage Staff'); ?></a></li>
                         <li><a href="CoachNotes"><span class="icon16 entypo-icon-user"></span><?php echo Translate('Coach Center Visit'); ?></a></li>
 
 
