@@ -10,7 +10,7 @@ else
 {
 	$Login=Login();
 	if($Login==1)
-	header("Location:DashBoard");
+	header("Location:DashBoard.php");
 	
 	$ParentsLogin=$StudentsLogin=0;
 	$loginBtn=isset($_POST['loginBtn']) ? $_POST['loginBtn'] : '';
@@ -172,7 +172,7 @@ else
 			unset($_SESSION['CURL']);
 		}
 		else	
-		header("Location:DashBoard");
+		header("Location:DashBoard.php");
 		exit();
 		}
 	}
@@ -189,7 +189,7 @@ include("Template/HTML.php");
                 <div class="navbar">
                     <div class="navbar-inner">
                       <div class="container">
-                            <a class="brand" href="DashBoard"><?php echo ("Education For Life Project"); ?> <span class="slogan"><?php ?></span></a>
+                            <a class="brand" href="DashBoard.php"><?php echo ("Education For Life Project"); ?> <span class="slogan"><?php ?></span></a>
                       </div>
                     </div>
                   </div>
