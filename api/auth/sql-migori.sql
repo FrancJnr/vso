@@ -196,3 +196,9 @@ VALUES
 ('190','KALONGONI',          '1','719','7',current_timestamp(),'1'),
 ('191','BORE SINGWAYA',      '1','720','7',current_timestamp(),'1');
 
+
+
+ALTER TABLE vs_student_scoring_sheet
+ALTER EnteredAt SET DEFAULT current_timestamp; 
+
+ALTER TABLE vs_student_scoring_sheet CHANGE `EnteredAt` `EnteredAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP;
