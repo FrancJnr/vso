@@ -63,14 +63,14 @@ include("../../Template/Sidebar.php");
 </style>
 <?php
 _reports_start();
-_report("fa fa-users fa-3x", "Admission Report", "Report detailing learners admitted to the program", "AdmissionReport");
-_report("fa fa-history fa-3x", "Waiting List", "A Report of Learners waiting to be admitted to the program", "RegistrationReport");
-_report("fa fa-bar-chart fa-3x", "Enrollment Per Center", "Report showing a graphical summary of Learners Per Catch Up center", "CenterEnrollment");
-_report("fa fa-bar-chart fa-3x", "Enrollment Per County", "Report showing a graphical summary of Learners Per County", "CountyEnrollment");
-_report("fa fa-bar-chart fa-3x", "Students Assigned to an EF", "Report showing a graphical summary of No of Students Assigned to an Educator Facilitator", "EfEnrollment");
-_report("fa fa-bar-chart fa-3x", "Ongoing Sessions", "Report showing a list of Active Sessions And Learners currently attending", "ActiveSessions");
-_report("fa fa-bar-chart fa-3x", "Session Attendance", "Report showing a summary of students attendance", "Attendance");
-_report("fa fa-history fa-3x",   "Transitions", "Report showing a summary of students who have transited or requested to transit", "Promotion");
+_report("fa fa-users fa-3x", "Admission Report", "Report detailing learners admitted to the program", "AdmissionReport.php");
+_report("fa fa-history fa-3x", "Waiting List", "A Report of Learners waiting to be admitted to the program", "RegistrationReport.php");
+_report("fa fa-bar-chart fa-3x", "Enrollment Per Center", "Report showing a graphical summary of Learners Per Catch Up center", "modules/Reports/registration-reports/enrollmentPerCenter.php");
+_report("fa fa-bar-chart fa-3x", "Enrollment Per County", "Report showing a graphical summary of Learners Per County", "modules/Reports/registration-reports/enrollmentPerCounty.php");
+_report("fa fa-bar-chart fa-3x", "Students Assigned to an EF", "Report showing a graphical summary of No of Students Assigned to an Educator Facilitator", "modules/Reports/registration-reports/enrollmentPerEf.php");
+_report("fa fa-bar-chart fa-3x", "Ongoing Sessions", "Report showing a list of Active Sessions And Learners currently attending", "modules/Reports/session-reports/session-index.php");
+_report("fa fa-bar-chart fa-3x", "Session Attendance", "Report showing a summary of students attendance", "modules/Reports/session-reports/session-index.php");
+_report("fa fa-history fa-3x",   "Transitions", "Report showing a summary of students who have transited or requested to transit", "modules/StudentProgress/views/promotions.php");
 
 
 _reports_end();

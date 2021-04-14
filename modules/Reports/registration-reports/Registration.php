@@ -15,8 +15,8 @@ class Registration extends \koolreport\KoolReport
             "dataSources"=>array(
                 "techsava_vso"=>array(
                     "connectionString"=>"mysql:host=localhost;dbname=techsava_vso",
-                    "username"=>"techsava_pmes",
-                    "password"=>"trymenot#123",
+                    "username"=>"root",
+                    "password"=>"",
                     "charset"=>"utf8"
                 )
 

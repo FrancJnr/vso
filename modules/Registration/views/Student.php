@@ -119,7 +119,7 @@ modal {
 																		?>
 																		
 																		</td>
-																		<?php SetGridActions($student['RegistrationId'], 'Admit', 'Delete', 'ViewStaff') ?>
+																		<?php SetGridActions($student['RegistrationId'], 'Admit', 'Delete', 'modules/Users/views/view-staff.php') ?>
 																	</tr>
 																	<?php endforeach; ?>
 																</tbody>

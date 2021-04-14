@@ -35,7 +35,7 @@ include("../../../Template/Sidebar.php");
        	
                             <div class="row-fluid">				
                                 <div class="span8">
-                            <form class="form-horizontal well"  name="ViewStaff" id="ViewStaff" method="Post">
+                            <form class="form-horizontal well"  name="modules/Users/views/view-staff.php" id="ViewStaff" method="Post">
                                      <div class="form-row row-fluid">
                                         <div class="span12">
                                             <div class="row-fluid">

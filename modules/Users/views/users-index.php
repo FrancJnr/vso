@@ -107,7 +107,7 @@ modal {
 										   ?>
 										
 										</td>
-										<?php SetGridActions($user['UserId'], 'AccessRoles', 'Delete', 'AccessRoles') ?>
+										<?php SetGridActions($user['UserId'], 'modules/Users/views/permissions.php', 'Delete', 'AccessRoles') ?>
 									</tr>
 									<?php endforeach; ?>
 								</tbody>

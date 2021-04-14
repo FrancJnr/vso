@@ -56,8 +56,8 @@
 
 
                         <li><a href="Uploadcontent"><span class="icon16 entypo-icon-upload"></span><?php echo Translate('Upload Content'); ?></a></li>
-                        <li><a href="UserManagement"><span class="icon16 entypo-icon-users"></span><?php echo Translate('User Management'); ?></a></li>
-                        <li><a href="Reports"><span class="icon16 entypo-icon-upload"></span><?php echo Translate('Reports'); ?></a></li>
+                        <li><a href="modules/Users/views/users-index.php"><span class="icon16 entypo-icon-users"></span><?php echo Translate('User Management'); ?></a></li>
+                        <li><a href="modules/Reports/index.php"><span class="icon16 entypo-icon-upload"></span><?php echo Translate('Reports'); ?></a></li>
 
                         <!-- <li>
                             <a href="#"><span class="icon16 icomoon-icon-clipboard"></span><?php echo Translate('Reports'); ?></a>

@@ -75,7 +75,7 @@ modal {
                 <div class="row-fluid">				
 					<div class="span12">
 						<div class="box gradient">
-						<a href="AddStaff" class="btn btn-success" class="create-contact">Add Staff</a>							<!-- <div class="content clearfix noPad"> -->
+						<a href="modules/Users/views/create.php" class="btn btn-success" class="create-contact">Add Staff</a>							<!-- <div class="content clearfix noPad"> -->
 							<table id="staff" cellpadding="0" cellspacing="0" border="0" class="responsive dynamicTable display table table-bordered" width="100%">
 								<thead>
 									<tr>
@@ -113,7 +113,7 @@ modal {
 										   ?>
 										
 										</td>
-										<?php SetGridActions($staff['id'], 'UpdateStaff', 'Delete', 'ViewStaff') ?>
+										<?php SetGridActions($staff['id'], 'modules/Users/views/edit-staff.php', 'Delete', 'modules/Users/views/view-staff.php') ?>
 									</tr>
 									<?php endforeach; ?>
 								</tbody>
