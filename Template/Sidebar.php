@@ -52,10 +52,10 @@
                 
                         
                         <li><a href="modules/Users/views/index.php"><span class="icon16 entypo-icon-user"></span><?php echo Translate('Manage Staff'); ?></a></li>
-                        <li><a href="CoachNotes"><span class="icon16 entypo-icon-user"></span><?php echo Translate('Coach Center Visit'); ?></a></li>
+                        <li><a href="modules/coachVisit/index.php"><span class="icon16 entypo-icon-user"></span><?php echo Translate('Coach Center Visit'); ?></a></li>
 
 
-                        <li><a href="Uploadcontent"><span class="icon16 entypo-icon-upload"></span><?php echo Translate('Upload Content'); ?></a></li>
+                        <li><a href="UploadContent.php"><span class="icon16 entypo-icon-upload"></span><?php echo Translate('Upload Content'); ?></a></li>
                         <li><a href="modules/Users/views/users-index.php"><span class="icon16 entypo-icon-users"></span><?php echo Translate('User Management'); ?></a></li>
                         <li><a href="modules/Reports/index.php"><span class="icon16 entypo-icon-upload"></span><?php echo Translate('Reports'); ?></a></li>
 
