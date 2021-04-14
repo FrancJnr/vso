@@ -89,7 +89,7 @@ class Registration{
         $updated = false;
         $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $this->conn->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
-        $query = "UPDATE `techsava_vso`.`vs_registrations`
+        $query = "UPDATE `vs_registrations`
         SET`OOSG_CODE` = ?,  `GirlName` = ?,
         `Village` = ?, `Ward` =?, `LanguageSpoken` = ?,
         `HouseHeadName` = ?,`HouseHeadSex` = ?,

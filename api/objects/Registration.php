@@ -123,7 +123,7 @@ class Registration{
         $this->Efid = $common->get_user_id_token($this->conn, $this->AccessToken);
         $insertedRId  = 0;
         $response = "";
-        $query = "INSERT INTO `techsava_vso`.`vs_registrations`
+        $query = "INSERT INTO `vs_registrations`
          (`OOSG_CODE`,`CohortId`,`Efid`,`CenterId`,`GirlName`,`Village`,`Ward`,`LanguageSpoken`,`HouseHeadName`,`HouseHeadSex`,
         `HouseHeadSpouseName`,`Dob`,`Gender`,`GuardianContact`,`GuardianOcupation`,`IsDeleted`,`DeletedBy`,
         `CreatedBy`,`CreatedAt`, email, Disability)

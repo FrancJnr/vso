@@ -120,7 +120,7 @@ $UniqueId=isset($_GET['UniqueId']) ? $_GET['UniqueId'] : '';
 								</form>
 								<?php
 										$query2="SELECT id, class, file_name, file_size, file_url, file_type, session, description, uploaded_on
-										FROM techsava_vso.e_learning_media WHERE session = '$CURRENTSESSION'";
+										FROM e_learning_media WHERE session = '$CURRENTSESSION'";
 										$result2=mysqli_query($CONNECTION,$query2);
 										$count=mysqli_num_rows($result2);
 										$DATA=array();

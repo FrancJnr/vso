@@ -152,7 +152,7 @@ class Student{
         $updated = false;
         $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $this->conn->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
-        $query = "UPDATE `techsava_vso`.`vs_registrations`
+        $query = "UPDATE `vs_registrations`
         SET`OOSG_CODE` = ?,  `GirlName` = ?,
         `Village` = ?, `Ward` =?, `LanguageSpoken` = ?,
         `HouseHeadName` = ?,`HouseHeadSex` = ?,
@@ -295,7 +295,7 @@ function Promotion(){
         // select all query
     try {
         $sql = "SELECT *
-        FROM techsava_vso.vs_students
+        FROM vs_students
         INNER JOIN vw_registrations ON vw_registrations.OOSG_CODE = vs_students.OOSG_CODE";
         $stmt = $this->conn->prepare($sql);
         $stmt->execute();
